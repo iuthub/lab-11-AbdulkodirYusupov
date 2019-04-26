@@ -3,7 +3,7 @@
 	<head>
 		<title>Pimp My Text!</title>
 		<link href="pimpmytext.css" rel="stylesheet" type="text/css" />
-		<!-- link to your script file here -->
+		
 
 	</head>
 
@@ -13,7 +13,21 @@
 			<img src="geek.jpg" alt="Pimpin' it, geek!" />
 		</div>
 
-		<!-- Your UI controls go here -->
+		<fieldset>
+			<legend>Text</legend>
+			<textarea rows="4" cols="30" id="text"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Pimpification</legend>
+			<button onclick="btnclick()">Bigger Pimpin</button>
+		</br>
+			<input type="checkbox" onclick="checkBoxClick()" id="ch">Bling</input>
+		</br>
+			<button onclick="snoopify()">Snoopify</button>
+
+		</fieldset>
 
 	</body>
+	<script type="text/javascript" src="pimpmytext.js"></script>
 </html>
